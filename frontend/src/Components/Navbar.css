@@ -1,0 +1,72 @@
+.navbar {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.login-btn {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.login-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.navbar {
+    height: 60px; /* Set a fixed height */
+    padding: 5px 15px; /* Reduce padding */
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    height: 40px; /* Adjust the logo size */
+    width: auto;
+  }
+ 
+  .logo {
+    height: 40px; /* Make sure the logo fits */
+    width: auto;  /* Keep the aspect ratio */
+  }
+  .navbar {
+    padding: 10px 20px; /* Adjust padding to avoid increasing height */
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-success:hover {
+    background-color: #00ff7f;
+    color: black;
+  }
+  
+  /* Dropdown Button Hover */
+  .dropdown .btn-success:hover {
+    background-color: #00ff7f;
+  }
+  
+  /* Dropdown Items Hover */
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #00ff7f;
+    color: black;
+  }
+  
